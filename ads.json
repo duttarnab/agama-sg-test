@@ -1,1 +1,18 @@
-{}
+{
+    "agama-sg-test": {
+        "projectName": "agama-sg-test",
+        "description": "Super Gluu",
+        "type": "community",
+        "author": "duttarnab",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/duttarnab/agama-sg-test",
+        "githubUri": "https://github.com/duttarnab/agama-sg-test",
+        "license": "apache-2.0",
+        "lastUpdated": "1701442331729",
+        "tags": [
+            "sg"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}
