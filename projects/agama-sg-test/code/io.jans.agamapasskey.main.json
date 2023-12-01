@@ -36,9 +36,15 @@
 					"comment": "",
 					"notes": "",
 					"flowfilename": "",
-					"assignments": [],
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
 					"callType": "Call static method",
-					"arguments": [],
+					"arguments": "authService",
 					"logMessage": "",
 					"templatePath": "",
 					"maxIteration": "",
@@ -47,8 +53,8 @@
 					"conditionInputField": "",
 					"valueField": "",
 					"returnVariable": "",
-					"javaClassName": "",
-					"javaMethodName": "",
+					"javaClassName": "io.jans.service.cdi.util.CdiUtil",
+					"javaMethodName": "bean",
 					"javaVariableName": "",
 					"maxIterationVariableName": "",
 					"logLevel": "",
@@ -57,13 +63,18 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"hasExtraData": false,
-					"configParams": "{}"
-				}
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:code",
+					"asssignedVariableName": "cdiUtil"
+				},
+				"skake": true
 			},
 			"positionAbsolute": {
 				"x": 630,
 				"y": 30
-			}
+			},
+			"selected": true,
+			"dragging": false
 		},
 		{
 			"width": 170,
@@ -131,9 +142,10 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "authService"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 430,
