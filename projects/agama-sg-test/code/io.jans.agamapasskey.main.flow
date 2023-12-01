@@ -3,4 +3,4 @@ Flow io.jans.agamapasskey.main
      Configs conf
 Log "@info Flow started.."
 authService = Call io.jans.as.server.service.AuthenticationService#class
-Call __________#__________ 
+cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
