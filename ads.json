@@ -13,6 +13,9 @@
             "sg"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "io.jans.agamapasskey.main": {}
+        },
+        "name": "agama-sg-test"
     }
 }
