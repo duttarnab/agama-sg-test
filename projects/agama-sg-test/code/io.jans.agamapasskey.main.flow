@@ -2,3 +2,5 @@ Flow io.jans.agamapasskey.main
      Basepath ""
      Configs conf
 Log "@info Flow started.."
+authService = Call io.jans.as.server.service.AuthenticationService#class
+Call __________#__________ 
