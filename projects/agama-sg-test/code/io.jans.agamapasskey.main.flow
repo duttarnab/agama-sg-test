@@ -1,2 +1,4 @@
 Flow io.jans.agamapasskey.main
      Basepath ""
+     Configs conf
+Log "@info Flow started.."
