@@ -4,3 +4,7 @@ Flow io.jans.agamapasskey.main
 Log "@info Flow started.."
 authService = Call io.jans.as.server.service.AuthenticationService#class
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
+loginResponse = {}
+Repeat 3 times max
+     loginResponse = RRF "main.ftlh" loginResponse
+     loginResponse.success = Call cdiUtil authenticate loginResponse.username loginResponse.password
