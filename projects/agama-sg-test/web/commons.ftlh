@@ -11,7 +11,7 @@
           <body>[#macro main]
   <meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>web/commons.ftlh
   </title><form method="post" enctype="application/x-www-form-urlencoded"><div class="row"><div class="d-flex align-items-center flex-column link-secondary lh-1">
-		Stuck or changed your mind? &lt;#-- I would like to t --&gt;
+		Stuck or changed your mind? 
 		<button type="submit" id="skipped" name="skipped" value="" class="btn btn-link p-0 ps-1">
 		  Use a different enrollment method
 		</button></div></div></form>
