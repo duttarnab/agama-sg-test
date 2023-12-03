@@ -13,5 +13,5 @@ Repeat 3 times max
           userData = Call io.jans.agamapasskey.IdentityProcessor#accountFromUid loginResponse.uid
           obj = Trigger io.jans.agamapasskey.credsEnrollment userData conf true null
           When obj.success is true
-     it_sasbu = { success: false, error: "Your error message here" }
-     Finish it_sasbu
+     it_rbzfe = { success: false, error: "Your error message here" }
+     Finish it_rbzfe
