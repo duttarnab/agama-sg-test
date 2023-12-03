@@ -12,5 +12,6 @@ Repeat 3 times max
      When loginResponse.success is true
           userData = Call io.jans.agamapasskey.IdentityProcessor#accountFromUid loginResponse.uid
           obj = Trigger io.jans.agamapasskey.credsEnrollment userData conf true null
-     it_kgzxk = { success: true, data: { userId: "as9233Qz" } }
-     Finish it_kgzxk
+          When obj.success is true
+     it_sasbu = { success: false, error: "Your error message here" }
+     Finish it_sasbu
