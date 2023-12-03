@@ -1,133 +1,12 @@
 {
 	"nodes": [
 		{
-			"width": 170,
-			"height": 122,
-			"id": "finish-de434576-e233-490e-843b-607f7136b801",
-			"position": {
-				"x": 2468.6644149215076,
-				"y": 949
-			},
-			"type": "finish",
-			"data": {
-				"id": "finish-de434576-e233-490e-843b-607f7136b801",
-				"type": "Agama-finish-Flow",
-				"parentId": "Agama-when-Node-606fbbc7-80bb-455c-99f4-1327f3e52e0a",
-				"whenCondition": "WhenTrue",
-				"inRepeatBlock": true,
-				"handles": [
-					"Agama-when-Node-606fbbc7-80bb-455c-99f4-1327f3e52e0a.FAILURE",
-					"Agama-when-Node-606fbbc7-80bb-455c-99f4-1327f3e52e0a.SUCCESS"
-				],
-				"position": {
-					"x": 2468.6644149215076,
-					"y": 949
-				},
-				"agamaData": {
-					"id": "finish-de434576-e233-490e-843b-607f7136b801",
-					"type": "Agama-finish-Flow",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasComment": true,
-					"hasNoRepeat": false,
-					"isTopLevelFlow": true,
-					"whenCondition": "WhenTrue",
-					"inRepeatBlock": true,
-					"parentId": "Agama-when-Node-606fbbc7-80bb-455c-99f4-1327f3e52e0a",
-					"name": "",
-					"basepath": "",
-					"comment": "",
-					"notes": "",
-					"flowfilename": "",
-					"assignments": [],
-					"callType": "Call static method",
-					"arguments": [],
-					"logMessage": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"variableField": "",
-					"conditionInputField": "",
-					"valueField": "",
-					"returnVariable": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": "",
-					"exceptionVariableField": "",
-					"hasExtraData": false,
-					"configParams": "{}"
-				}
-			},
-			"selected": true,
-			"dragging": false,
-			"positionAbsolute": {
-				"x": 2468.6644149215076,
-				"y": 949
-			}
-		},
-		{
-			"width": 210,
-			"height": 140,
-			"id": "Agama-when-Node-606fbbc7-80bb-455c-99f4-1327f3e52e0a",
-			"position": {
-				"x": 2355.6644149215076,
-				"y": 719
-			},
-			"parentId": "Agama-when-Node-830addc9-db2b-4f36-80c0-b862d4b5a5fc",
-			"type": "when",
-			"data": {
-				"id": "Agama-when-Node-606fbbc7-80bb-455c-99f4-1327f3e52e0a",
-				"type": "Agama-when-Node",
-				"parentId": "Agama-when-Node-830addc9-db2b-4f36-80c0-b862d4b5a5fc",
-				"whenCondition": "WhenTrue",
-				"inRepeatBlock": true,
-				"position": {
-					"x": 2355.6644149215076,
-					"y": 719
-				},
-				"agamaData": {
-					"id": "Agama-when-Node-606fbbc7-80bb-455c-99f4-1327f3e52e0a",
-					"parentId": "Agama-when-Node-830addc9-db2b-4f36-80c0-b862d4b5a5fc",
-					"type": "Agama-when-Node",
-					"assignments": [
-						{
-							"variableTypeCheck": true,
-							"assignmentExpression": "",
-							"assignedVariableName": ""
-						}
-					],
-					"arguments": [],
-					"variableField": "obj.data.hadEnoughCreds",
-					"conditionInputField": "is",
-					"valueField": "false",
-					"hasComment": true,
-					"hasSuccess": true
-				},
-				"handles": [
-					"Agama-when-Node-606fbbc7-80bb-455c-99f4-1327f3e52e0a.FAILURE",
-					"Agama-when-Node-606fbbc7-80bb-455c-99f4-1327f3e52e0a.SUCCESS"
-				]
-			},
-			"selected": false,
-			"dragging": false,
-			"positionAbsolute": {
-				"x": 2355.6644149215076,
-				"y": 719
-			}
-		},
-		{
 			"width": 210,
 			"height": 140,
 			"id": "Agama-when-Node-830addc9-db2b-4f36-80c0-b862d4b5a5fc",
 			"position": {
 				"x": 2241.148698354997,
-				"y": 489
+				"y": 487.4842834334896
 			},
 			"parentId": "Agama-trigger-Node-ba0a36d8-27a0-4c52-bf4e-f41e82879254",
 			"type": "when",
@@ -139,7 +18,7 @@
 				"inRepeatBlock": true,
 				"position": {
 					"x": 2241.148698354997,
-					"y": 489
+					"y": 487.4842834334896
 				},
 				"agamaData": {
 					"id": "Agama-when-Node-830addc9-db2b-4f36-80c0-b862d4b5a5fc",
@@ -163,13 +42,14 @@
 				"handles": [
 					"Agama-when-Node-830addc9-db2b-4f36-80c0-b862d4b5a5fc.FAILURE",
 					"Agama-when-Node-830addc9-db2b-4f36-80c0-b862d4b5a5fc.SUCCESS"
-				]
+				],
+				"skake": true
 			},
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2241.148698354997,
-				"y": 489
+				"y": 487.4842834334896
 			}
 		},
 		{
@@ -1400,8 +1280,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1003.2678406940363,
-		"y": -125.44077363443597,
-		"zoom": 0.6597539553864471
+		"x": -1582.392304678503,
+		"y": -152.74640308614062,
+		"zoom": 1.0000000000000002
 	}
 }
