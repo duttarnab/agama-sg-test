@@ -5,7 +5,7 @@
           <meta charset="UTF-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <style>* { box-sizing: border-box; } body {margin: 0;}</style>
+          <style>* { box-sizing: border-box; } body {margin: 0;}*{box-sizing:border-box;}body{margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}</style>
           <title>web/preference.ftlh</title>
           </head>
           <body>&lt;#import "../agamapasskey/commons.ftlh" as com&gt;
