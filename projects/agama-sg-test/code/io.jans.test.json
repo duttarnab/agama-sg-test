@@ -55,7 +55,7 @@
 					"returnVariable": "",
 					"javaClassName": "cdiUtil",
 					"javaMethodName": "authenticate",
-					"javaVariableName": "",
+					"javaVariableName": "cdiUtil",
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
@@ -66,7 +66,8 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "loginResponse.success"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -543,8 +544,8 @@
 		}
 	],
 	"viewport": {
-		"x": -34,
-		"y": 202,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
