@@ -5,3 +5,4 @@ authService = Call io.jans.as.server.service.AuthenticationService#class
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
 loginResponse = "{}"
 loginResponse = RRF "main.ftlh" loginResponse
+loginResponse.success = Call __________ authenticate loginResponse.username loginResponse.password
