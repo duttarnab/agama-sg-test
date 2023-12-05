@@ -1,2 +1,4 @@
 Flow io.jans.insert.blocks
      Basepath ""
+Log "@info before loop"
+Log "@info " after loop
