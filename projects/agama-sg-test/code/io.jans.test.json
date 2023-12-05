@@ -70,9 +70,10 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1563.6390158215459,
@@ -148,7 +149,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -201,7 +203,8 @@
 				"handles": [
 					"Agama-when-Node-be19a39a-c0a8-4d34-8c1b-1e142b7c6f1b.FAILURE",
 					"Agama-when-Node-be19a39a-c0a8-4d34-8c1b-1e142b7c6f1b.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -276,9 +279,10 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:event-repeat-outline-rounded"
-				}
+				},
+				"skake": true
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 1232.319507910773,
 				"y": 31
