@@ -69,7 +69,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -119,7 +120,8 @@
 				"handles": [
 					"Agama-when-Node-98f32c54-6dd9-40ed-834f-2167092d2115.FAILURE",
 					"Agama-when-Node-98f32c54-6dd9-40ed-834f-2167092d2115.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -195,7 +197,8 @@
 					"nodeIcon": "fluent-mdl2:trigger-approval",
 					"flowFileName": "io.jans.agamapasskey.authenticator",
 					"asssignedVariableName": "obj"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -273,7 +276,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -323,7 +327,8 @@
 				"handles": [
 					"Agama-when-Node-145f1445-11c8-49dd-a131-3e49c5797678.FAILURE",
 					"Agama-when-Node-145f1445-11c8-49dd-a131-3e49c5797678.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -373,7 +378,8 @@
 				"handles": [
 					"Agama-when-Node-9ae02149-3470-467e-837d-2679f04b9ac4.FAILURE",
 					"Agama-when-Node-9ae02149-3470-467e-837d-2679f04b9ac4.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -1699,8 +1705,8 @@
 		}
 	],
 	"viewport": {
-		"x": -922.651309132867,
-		"y": -89.20969026350838,
-		"zoom": 0.5743491774985174
+		"x": -1648,
+		"y": -319,
+		"zoom": 1
 	}
 }
