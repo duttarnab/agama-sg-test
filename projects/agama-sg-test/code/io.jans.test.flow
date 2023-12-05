@@ -6,3 +6,12 @@ cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
 loginResponse = "{}"
 loginResponse = RRF "main.ftlh" loginResponse
 loginResponse.success = Call cdiUtil authenticate loginResponse.username loginResponse.password
+When loginResponse.success is true
+     a = "false"
+     When a is true
+          it_xbbmi = { success: true, data: { userId: "as9233Qz" } }
+          Finish it_xbbmi
+     it_penzt = { success: false, error: "Your error message here" }
+     Finish it_penzt
+it_sbznl = { success: true, data: { userId: "end" } }
+Finish it_sbznl
