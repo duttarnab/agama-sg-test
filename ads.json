@@ -15,7 +15,8 @@
         "noDirectLaunch": [],
         "configs": {
             "io.jans.agamapasskey.main": {},
-            "io.jans.test": {}
+            "io.jans.test": {},
+            "io.jans.insert.blocks": {}
         },
         "name": "agama-sg-test"
     }
