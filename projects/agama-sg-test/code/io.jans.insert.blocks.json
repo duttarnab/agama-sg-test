@@ -65,7 +65,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -139,7 +140,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -208,7 +210,7 @@
 					"flowname": "io.jans.insert.blocks",
 					"nodeIcon": "material-symbols:line-start-square"
 				},
-				"skake": true
+				"skake": false
 			},
 			"position": {
 				"x": 30,
