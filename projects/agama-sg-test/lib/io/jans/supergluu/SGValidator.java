@@ -1,4 +1,4 @@
-package io.jans.agamapasskey;
+package io.jans.supergluu;
 
 import io.jans.as.common.model.session.SessionId;
 import io.jans.as.common.service.common.fido2.RegistrationPersistenceService;
