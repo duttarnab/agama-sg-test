@@ -1,4 +1,4 @@
-package io.jans.agamapasskey.notify;
+package io.jans.supergluu.notify;
 
 import com.nimbusds.jose.*;
 import com.nimbusds.jwt.*;
