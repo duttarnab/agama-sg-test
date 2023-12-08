@@ -1,5 +1,4 @@
-package io.jans.agamapasskey;
-
+package io.jans.supergluu;
 public class MFASettings {
     
     private int minCredsRequired;
