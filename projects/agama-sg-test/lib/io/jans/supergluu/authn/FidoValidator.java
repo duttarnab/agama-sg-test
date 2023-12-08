@@ -1,4 +1,4 @@
-package io.jans.agamapasskey.authn;
+package io.jans.supergluu.authn;
 
 import io.jans.fido2.client.AssertionService;
 import io.jans.fido2.client.Fido2ClientFactory;
