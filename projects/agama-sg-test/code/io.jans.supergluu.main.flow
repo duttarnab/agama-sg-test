@@ -13,5 +13,15 @@ Repeat 3 times max
           userData = Call io.jans.agamapasskey.IdentityProcessor#accountFromUid loginResponse.uid
           obj = Trigger io.jans.supergluu.credsEnrollment userData obj.data.mfaInfo
           When obj.success is true
-it_gknfm = { success: false, error: "Your error message here" }
-Finish it_gknfm
+               Log "@trace Auth success!"
+               When obj.data.hadEnoughCreds is false
+                    it_jwqxz = { success: true, data: { userId: loginResponse.uid } }
+                    Finish it_jwqxz
+               obj = Trigger io.jans.supergluu.authenticator userData obj.data.mfaInfo
+               When obj.success is true
+                    it_akkuz = { success: true, data: { userId: loginResponse.uid } }
+                    Finish it_akkuz
+          it_eakvo = { success: true, data: { userId: obj } }
+          Finish it_eakvo
+it_arfdj = { success: false, error: "Your error message here" }
+Finish it_arfdj
