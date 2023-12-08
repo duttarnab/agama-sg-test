@@ -1,60 +1,364 @@
-[
-  {
-    "id": "Agama-start-Flow-a63ed800-bedf-48f0-aaec-dabc41fd2574",
-    "type": "start",
-    "sourcePosition": "right",
-    "data": {
-      "id": "Agama-start-Flow-a63ed800-bedf-48f0-aaec-dabc41fd2574",
-      "type": "Agama-start-Flow",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "inRepeatBlock": false,
-      "agamaData": {
-        "id": "Agama-start-Flow-a63ed800-bedf-48f0-aaec-dabc41fd2574",
-        "type": "Agama-start-Flow",
-        "hasSuccess": false,
-        "hasFailure": false,
-        "hasRepeat": false,
-        "hasComment": true,
-        "hasNoRepeat": false,
-        "isTopLevelFlow": true,
-        "inRepeatBlock": false,
-        "name": "",
-        "basepath": "",
-        "comment": "",
-        "notes": "",
-        "flowfilename": "",
-        "assignments": [],
-        "callType": "Call static method",
-        "arguments": [],
-        "logMessage": "",
-        "templatePath": "",
-        "maxIteration": "",
-        "idpAuthEndpoint": "",
-        "variableField": "",
-        "conditionInputField": "",
-        "valueField": "",
-        "returnVariable": "",
-        "javaClassName": "",
-        "javaMethodName": "",
-        "javaVariableName": "",
-        "maxIterationVariableName": "",
-        "logLevel": "",
-        "assignCallbackResult": "",
-        "displayName": "io.jans.supergluu.credsEnrollment",
-        "nodeColor": "",
-        "exceptionVariableField": "",
-        "hasExtraData": false,
-        "configParams": "{}",
-        "flowname": "io.jans.supergluu.credsEnrollment"
-      },
-      "skake": false
-    },
-    "position": {
-      "x": 30,
-      "y": 30
-    }
-  }
-]
+{
+	"nodes": [
+		{
+			"width": 170,
+			"height": 122,
+			"id": "Agama-call-Node-fe767e44-025e-42ad-b35b-e04e95ba76eb",
+			"position": {
+				"x": 628.851301645003,
+				"y": 28.85130164500299
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-fe767e44-025e-42ad-b35b-e04e95ba76eb",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-assignment-Node-773c9ac8-985e-4417-80cc-f8dace9e6b06",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 628.851301645003,
+					"y": 28.85130164500299
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-fe767e44-025e-42ad-b35b-e04e95ba76eb",
+					"type": "Agama-call-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-assignment-Node-773c9ac8-985e-4417-80cc-f8dace9e6b06",
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Create an instance",
+					"arguments": "mfaSettings",
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "io.jans.agamapasskey.EnrollmentHelper",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:code",
+					"asssignedVariableName": "enrollmentHelper"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 628.851301645003,
+				"y": 28.85130164500299
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
+			"id": "Agama-assignment-Node-773c9ac8-985e-4417-80cc-f8dace9e6b06",
+			"position": {
+				"x": 428.851301645003,
+				"y": 28.85130164500299
+			},
+			"type": "assignment",
+			"data": {
+				"id": "Agama-assignment-Node-773c9ac8-985e-4417-80cc-f8dace9e6b06",
+				"type": "Agama-assignment-Node",
+				"parentId": "Agama-log-Node-c2010781-6907-45f1-ba95-9f028e27b1a3",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 428.851301645003,
+					"y": 28.85130164500299
+				},
+				"agamaData": {
+					"id": "Agama-assignment-Node-773c9ac8-985e-4417-80cc-f8dace9e6b06",
+					"type": "Agama-assignment-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-log-Node-c2010781-6907-45f1-ba95-9f028e27b1a3",
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": false,
+							"assignmentExpression": "userData.inum",
+							"assignedVariableName": "inum"
+						},
+						{
+							"variableTypeCheck": false,
+							"assignmentExpression": "mfaSettings.minCredsRequired",
+							"assignedVariableName": "minCredsRequired"
+						}
+					],
+					"callType": "Call static method",
+					"arguments": [],
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:equal"
+				}
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 428.851301645003,
+				"y": 28.85130164500299
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
+			"id": "Agama-log-Node-c2010781-6907-45f1-ba95-9f028e27b1a3",
+			"position": {
+				"x": 228.851301645003,
+				"y": 28.85130164500299
+			},
+			"type": "log",
+			"data": {
+				"id": "Agama-log-Node-c2010781-6907-45f1-ba95-9f028e27b1a3",
+				"type": "Agama-log-Node",
+				"parentId": "Agama-start-Flow-a63ed800-bedf-48f0-aaec-dabc41fd2574",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 228.851301645003,
+					"y": 28.85130164500299
+				},
+				"agamaData": {
+					"id": "Agama-log-Node-c2010781-6907-45f1-ba95-9f028e27b1a3",
+					"type": "Agama-log-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-start-Flow-a63ed800-bedf-48f0-aaec-dabc41fd2574",
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": [],
+					"logMessage": "\"Credentials enrollment flow started\" verifyEmail",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "info",
+					"assignCallbackResult": "",
+					"displayName": "",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"nodeIcon": "octicon:log-16"
+				}
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 228.851301645003,
+				"y": 28.85130164500299
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
+			"id": "Agama-start-Flow-a63ed800-bedf-48f0-aaec-dabc41fd2574",
+			"type": "start",
+			"sourcePosition": "right",
+			"data": {
+				"id": "Agama-start-Flow-a63ed800-bedf-48f0-aaec-dabc41fd2574",
+				"type": "Agama-start-Flow",
+				"position": {
+					"x": 28.85130164500299,
+					"y": 28.85130164500299
+				},
+				"inRepeatBlock": false,
+				"agamaData": {
+					"id": "Agama-start-Flow-a63ed800-bedf-48f0-aaec-dabc41fd2574",
+					"type": "Agama-start-Flow",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"inRepeatBlock": false,
+					"name": "",
+					"basepath": "",
+					"comment": "//This flow launches several credential enrollment flows based on the configured\n//authentication methods (passed in param mfaSettings) for a given user (identified by\n//input param userData) until a given number of enrolled credentials is reached. The\n//user is also prompted to optionally choose which his preferred credential type is. \n//The flow returns a positive value if enough credentials have been successfully\n//enrolled or a negative value when several failed attempts to enroll have taken place. \n//In the case of a positive value, two pieces of data are attached: mfaInfo (an instance\n//of class io.jans.agamapasskey.MFAUserInfo) describing current enrollment-related data\n//for the user, and hadEnoughCreds (a boolean value) indicating whether this user had\n//enough credentials when this flow was originally launched",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": [],
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "io.jans.supergluu.credsEnrollment",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"flowname": "io.jans.supergluu.credsEnrollment",
+					"nodeIcon": "material-symbols:line-start-square",
+					"inputs": "userData mfaSettings verifyEmail message"
+				},
+				"skake": false
+			},
+			"position": {
+				"x": 28.85130164500299,
+				"y": 28.85130164500299
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 28.85130164500299,
+				"y": 28.85130164500299
+			},
+			"dragging": false
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-a63ed800-bedf-48f0-aaec-dabc41fd2574-Agama-log-Node-c2010781-6907-45f1-ba95-9f028e27b1a3-30ae991e-5832-4553-912b-da24c0a7cad7",
+			"type": "straight",
+			"source": "Agama-start-Flow-a63ed800-bedf-48f0-aaec-dabc41fd2574",
+			"target": "Agama-log-Node-c2010781-6907-45f1-ba95-9f028e27b1a3",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-log-Node-c2010781-6907-45f1-ba95-9f028e27b1a3-Agama-assignment-Node-773c9ac8-985e-4417-80cc-f8dace9e6b06-2a50fa24-0200-4eb8-af5d-b80ff0cc1bfa",
+			"type": "straight",
+			"source": "Agama-log-Node-c2010781-6907-45f1-ba95-9f028e27b1a3",
+			"target": "Agama-assignment-Node-773c9ac8-985e-4417-80cc-f8dace9e6b06",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-assignment-Node-773c9ac8-985e-4417-80cc-f8dace9e6b06-Agama-call-Node-fe767e44-025e-42ad-b35b-e04e95ba76eb-72822ea5-763e-4407-ac09-52d161099655",
+			"type": "straight",
+			"source": "Agama-assignment-Node-773c9ac8-985e-4417-80cc-f8dace9e6b06",
+			"target": "Agama-call-Node-fe767e44-025e-42ad-b35b-e04e95ba76eb",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
+	"viewport": {
+		"x": 56.97764536972113,
+		"y": 223.00907850274206,
+		"zoom": 1.0000000000000004
+	}
+}
