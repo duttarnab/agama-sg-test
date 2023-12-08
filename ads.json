@@ -14,7 +14,8 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "io.jans.supergluu.main": {}
+            "io.jans.supergluu.main": {},
+            "io.jans.supergluu.credsEnrollment": {}
         },
         "name": "agama-sg-test"
     }
