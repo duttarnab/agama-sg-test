@@ -12,5 +12,6 @@ Repeat 3 times max
      When loginResponse.success is true
           userData = Call io.jans.agamapasskey.IdentityProcessor#accountFromUid loginResponse.uid
           obj = Trigger io.jans.supergluu.credsEnrollment userData obj.data.mfaInfo
-it_kbzcl = { success: false, error: "Your error message here" }
-Finish it_kbzcl
+          When obj.success is true
+it_gknfm = { success: false, error: "Your error message here" }
+Finish it_gknfm
