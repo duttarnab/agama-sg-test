@@ -1,4 +1,4 @@
-package io.jans.agamapasskey;
+package io.jans.supergluu;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
