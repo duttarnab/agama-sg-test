@@ -1,4 +1,4 @@
-package io.jans.agamapasskey;
+package io.jans.supergluu;
 
 import com.nimbusds.oauth2.sdk.http.HTTPRequest;
 import com.nimbusds.oauth2.sdk.http.HTTPResponse;
