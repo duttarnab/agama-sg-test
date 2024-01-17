@@ -33,7 +33,10 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "io.jans.agamaSmtp.main": {}
+            "io.jans.agamaSmtp.main": {
+                "minCredsRequired": 2,
+                "captureLocation": true
+            }
         },
         "name": "agama-smtp"
     }
