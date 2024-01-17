@@ -32,6 +32,9 @@
             "smtp"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "io.jans.agamaSmtp.main": {}
+        },
+        "name": "agama-smtp"
     }
 }
