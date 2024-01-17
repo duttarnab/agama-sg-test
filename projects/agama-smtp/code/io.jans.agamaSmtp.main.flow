@@ -1,2 +1,9 @@
 Flow io.jans.agamaSmtp.main
      Basepath ""
+     Timeout 360 seconds
+     Configs conf
+     Inputs emailHint
+Log "@debug " Email authentication started
+obj = { email: emailHint, captureLocation: conf.captureLocation }
+obj = RRF "main.ftlh" obj
+email = "obj.email"
