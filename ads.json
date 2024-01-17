@@ -17,5 +17,21 @@
             "io.jans.supergluu.main": {}
         },
         "name": "agama-sg-test"
+    },
+    "agama-smtp": {
+        "projectName": "agama-smtp",
+        "description": "The project implementing the AUTH Techniques that rely on sending email",
+        "type": "community",
+        "author": "duttarnab",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/duttarnab/agama-sg-test",
+        "githubUri": "https://github.com/duttarnab/agama-sg-test",
+        "license": "apache-2.0",
+        "lastUpdated": "1705498585725",
+        "tags": [
+            "smtp"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
     }
 }
