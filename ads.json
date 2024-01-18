@@ -36,7 +36,8 @@
             "io.jans.agamaSmtp.main": {
                 "minCredsRequired": 2,
                 "captureLocation": true
-            }
+            },
+            "io.jans.agamaSmtp.registration": {}
         },
         "name": "agama-smtp"
     }
