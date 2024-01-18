@@ -1,0 +1,35 @@
+[
+  {
+    "id": "Agama-start-Flow-d872fb75-d8b9-49a9-a8d8-a90cb37bb445",
+    "type": "start",
+    "sourcePosition": "right",
+    "data": {
+      "id": "Agama-start-Flow-d872fb75-d8b9-49a9-a8d8-a90cb37bb445",
+      "type": "Agama-start-Flow",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "inRepeatBlock": false,
+      "agamaData": {
+        "id": "Agama-start-Flow-d872fb75-d8b9-49a9-a8d8-a90cb37bb445",
+        "type": "Agama-start-Flow",
+        "displayName": "io.jans.agamaSmtp.registration",
+        "hasComment": true,
+        "comment": "",
+        "isTopLevelFlow": true,
+        "basepath": "",
+        "configParams": "{}",
+        "nodeIcon": "material-symbols:line-start-square",
+        "timeout": "",
+        "inputs": "",
+        "configs": "",
+        "flowname": "io.jans.agamaSmtp.registration"
+      }
+    },
+    "position": {
+      "x": 30,
+      "y": 30
+    }
+  }
+]
